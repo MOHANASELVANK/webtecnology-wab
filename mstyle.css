@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+    text-shadow: 0ch;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aqua;
+    border-style:double;
+    border-color:blueviolet ;
+    border-width: 10px;
+    border-radius: 20px;
+
+}
+img{
+    border-style: solid;
+    border-left-color:red;
+    border-right-color: red;
+    border-bottom-color: blue;
+    border-top-color:blue;
+    border-width:5px
+}
+p{
+    font-size:xx-large;
+    color: chartreuse;
+    text-align: center;
+
+}
