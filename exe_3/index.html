@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>Login Page</title>
+ <link rel="stylesheet" href="styles.css" />
+ </head>
+ <body>
+ <div class="container">
+ <img src="insta-logo.png" alt="insta" />
+ <form id="login-form">
+ <input
+ type="text"
+ id="username"
+ name="username"
+ required
+ placeholder="Phone number, username or email address "
+ />
+ <input
+ type="password"
+ id="password"
+ name="password"
+ required
+ placeholder="Password"
+ />
+ <button type="submit">Login</button>
+ <div class="or">OR</div>
+ </form>
+ <div class="fb">
+ <a href="#">Log in with Facebook</a>
+ </div>
+ <div class="forgetpass">
+ <a href="#">Forget Password?</a>
+ </div>
+ <div class="signup">
+ <p>Don't have an account?<a href="#">Sign up</a></p>
+ </div>
+ <p id="error-message"></p>
+ </div>
+ <script src="script.js"></script>
+ </body>
+</html>
