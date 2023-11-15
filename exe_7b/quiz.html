@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sports Quiz</title>
+<style>
+/* CSS for styling */
+
+body {
+font-family: Arial, sans-serif;
+text-align: center;
+background-color:rgb(140, 148, 240);
+padding: 20px;
+}
+.question {
+margin-bottom: 10px;
+background-color: #ffffff;
+padding: 10px;
+}
+</style>
+</head>
+<body>
+<h1>Mixed Input Types Quiz</h1>
+<form action="ScoreServlet" method="post">
+<div class="question">
+<p>1. Who scored the first century in the history of the Cricket World Cup
+    ?</p>
+<input type="text" name="q1" required>
+</div>
+
+<div class="question">
+<p>2. 2. Which country has won the most Cricket World Cups
+    ?</p>
+<input type="text" name="q2" required>
+</div>
+
+<div class="question">
+<p>3. In which year was the first Cricket World Cup held? </p>
+<input type="checkbox" name="q3a" value="1967"> 1967
+
+<input type="checkbox" name="q3b" value="1975"> 1975
+<input type="checkbox" name="q3c" value="1986"> 1986
+<input type="checkbox" name="q3d" value="1967"> 1967
+</div>
+
+<div class="question">
+<p>4. Who holds the record for the highest individual score in a single World Cup innings?</p>
+<input type="radio" name="q4" value="Sachin Tendulkar">Sachin Tendulkar
+<input type="radio" name="q4" value="Ricky Ponting "> Ricky Ponting 
+<input type="radio" name="q4" value="Chris Gayle"> Chris Gayle
+</div>
+
+<div class="question">
+<p>5. Which team won the inaugural ICC Cricket World Cup in 1975 ?</p>
+<input type="text" name="q5" required>
+</div>
+
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
